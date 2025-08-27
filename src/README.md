@@ -817,3 +817,295 @@ El resultado indica si el formulario es válido o cuáles errores se encontraron
 Abrir la terminal en la carpeta `src/iterativas`.  
 Ejecutar:
    python punto42.py
+
+**FUNCIONES**
+
+## Punto1
+
+Este programa calcula el área de un rectángulo en Python.  
+La función recibe como parámetros la base y la altura del rectángulo,  
+realiza la multiplicación correspondiente y devuelve el resultado.  
+
+Finalmente, el programa imprime el área calculada con un mensaje explicativo.  
+
+## Cómo ejecutarlo
+
+Abrir la terminal en la carpeta `src/iterativas`.  
+Ejecutar:
+   python punto1.py
+
+## Punto2
+
+Este programa contiene dos funciones en Python:
+es_par(numero): Verifica si un número ingresado es par o impar.
+celsius_a_fahrenheit(celsius): Convierte una temperatura de grados Celsius a grados Fahrenheit.
+El resultado de cada función depende del valor que se le pase como argumento.
+
+## Cómo ejecutarlo
+
+Abrir la terminal en la carpeta `src/iterativas`.
+Ejecutar:
+   python punto2.py
+
+## Punto3
+
+Este programa muestra cómo asignar una función a una variable en Python
+y luego utilizar esa variable para llamar la función como si fuera la original.
+En este caso se convierte la temperatura de 25°C a Fahrenheit
+usando la función celsius_a_fahrenheit.
+El resultado final se imprime en consola.
+
+## Cómo ejecutarlo
+
+Abrir la terminal en la carpeta `src/iterativas`.
+Ejecutar:
+   python punto3.py
+
+## Punto4
+
+Este programa define una función llamada `calcular_descuento` que aplica un porcentaje de descuento a un precio dado.  
+El porcentaje por defecto es 10%, pero puede modificarse al llamar la función.  
+En el ejemplo se calcula el precio final de un producto que cuesta 100 con el descuento por defecto, obteniendo como resultado 90.0.  
+
+## Cómo ejecutarlo
+
+Abrir la terminal en la carpeta `src/iterativas`.  
+Ejecutar:  
+
+   python punto4.py
+
+## Punto5
+
+Este programa muestra cómo se utilizan parámetros y argumentos en una función de Python.  
+El parámetro `nombre` es usado para recibir un valor al llamar la función.  
+En el ejemplo, al pasar el argumento `"Ana"`, la función imprime un saludo personalizado.
+
+## Cómo ejecutarlo
+
+Abrir la terminal en la carpeta `src/iterativas`.  
+Ejecutar:
+   python punto5.py
+
+## Punto6
+
+Este programa calcula el precio final de un producto aplicando un impuesto.  
+Se utilizan parámetros para recibir el `precio_base` y el `impuesto`, y se retorna el resultado del cálculo.
+
+## Cómo ejecutarlo
+
+Abrir la terminal en la carpeta `src/iterativas`.  
+Ejecutar:
+   python punto6.py
+
+## Punto7
+
+Este programa muestra cómo usar parámetros con valores predeterminados en Python.
+La función saludar recibe un nombre y opcionalmente un mensaje.
+
+## Cómo ejecutarlo
+
+Abrir la terminal en la carpeta `src/iterativas`.
+Ejecutar:
+
+   python punto7.py
+
+## Punto8
+
+Este programa muestra cómo usar argumentos posicionales y argumentos por nombre en Python.  
+La función `dividir` recibe dos parámetros: `dividendo` y `divisor`, y retorna el resultado de la división.
+
+## Cómo ejecutarlo
+
+Abrir la terminal en la carpeta `src/iterativas`.  
+Ejecutar:
+
+   python punto8.py
+
+## Punto9
+
+Este programa muestra cómo usar argumentos por nombre en Python.
+La función `crear_usuario` recibe datos de un usuario y devuelve un diccionario con su información.
+
+## Cómo ejecutarlo
+
+Abrir la terminal en la carpeta `src/iterativas`.  
+Ejecutar:
+
+   python punto9.py
+
+## Punto10
+
+Este programa muestra cómo usar parámetros variables en Python con `*args`.  
+La función `sumar` recibe cualquier cantidad de números y devuelve la suma total.
+
+
+### Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.  
+Ejecutar:
+   python punto10.py
+
+## Punto11
+
+Este programa muestra cómo usar parámetros variables con nombre en Python usando `**kwargs`.  
+La función `mostrar_informacion` recibe cualquier cantidad de argumentos por nombre y los imprime en pantalla.
+
+
+### Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.  
+Ejecutar:
+   python punto11.py
+
+## Punto12
+
+Este programa define una función `calcular_cuadrado` que recibe un número, calcula su cuadrado y devuelve el resultado.  
+Luego se llama a la función con el valor `4` y se imprime el área resultante (16).
+
+### Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.  
+Ejecutar:
+   python punto12.py
+
+## Punto13
+
+Este programa muestra cómo funciona una función en Python cuando no se utiliza `return`.  
+La función `saludar` imprime un mensaje en pantalla, pero al no devolver nada explícitamente, su valor de retorno es `None`.
+
+### Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.  
+Ejecutar:
+   python punto13.py
+
+## Punto14
+
+Este programa define una función `estadisticas` que recibe una lista de números y devuelve la suma, el promedio, el valor mínimo y el valor máximo. Posteriormente, esos resultados se desempaquetan en variables y se muestran en pantalla para observar cómo una función puede retornar múltiples valores en Python.
+
+### Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.  
+Ejecutar:
+   python punto14.py
+
+## Punto15
+Este programa tiene una función que divide dos números. Si el número de abajo es cero, te avisa que no se puede.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto15.py
+
+## Punto16
+Este programa usa funciones que responden con True o False. La primera función revisa si alguien es mayor de edad, y la segunda revisa si un correo es válido. Luego, usa esas respuestas para decidir qué mensaje mostrar.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto16.py
+
+## Punto17
+Este programa tiene una función que toma un nombre y un apellido y los junta. El apellido lo pone en mayúsculas y el nombre lo pone con la primera letra en mayúscula. Esto sirve para organizar nombres de una forma específica.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto17.py
+
+## Punto18
+Este programa tiene una función para calcular el precio final de algo, incluyendo el IVA. La función ya tiene un valor de IVA por defecto, así que si no le das otro, usará ese. Esto hace que sea más fácil de usar.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto18.py
+
+## Punto19
+Este programa te muestra cómo hacer listas y diccionarios de forma más rápida. Usa una técnica llamada "comprensión de listas" para crear una lista de números pares y otra llamada "comprensión de diccionarios" para crear un diccionario de números al cuadrado. Es una forma más corta y elegante de escribir código.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto19.py
+
+## Punto20
+Este programa tiene una función que revisa una lista de números y solo te devuelve los que son positivos. Lo que es genial de esta función es que si por error le das algo que no es una lista, en lugar de fallar, te devuelve una lista vacía.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto20.py
+
+## Punto21
+Este programa tiene una función que solo calcula el promedio de unos números. El resultado se muestra fuera de la función. Esto es útil porque la función solo hace una cosa, y el programa principal decide qué hacer con el resultado.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto21.py
+
+## Punto22
+Este programa tiene una función que toma un número, por ejemplo, una puntuación, y te dice a qué calificación pertenece. También revisa si el número es válido, por si alguien pone un número muy alto o muy bajo.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto22.py
+
+## Punto23
+Este programa tiene una función muy simple que se encarga de sumar dos números. Su propósito es demostrar la función sumar y cómo un programa puede usarla para hacer una operación matemática básica.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto23.py
+
+## Punto24
+Este programa tiene una función que calcula el promedio de una lista de números. La función solo se encarga de hacer la cuenta, y luego se usa el resultado en el programa principal para mostrarlo en pantalla. Esto es una buena práctica porque la función se centra en una sola tarea, lo que hace el código más limpio.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto24.py
+
+## Punto25
+Este programa tiene una función que valida una dirección de correo electrónico. La función revisa que el texto tenga un @ y que el dominio (lo que va después del @) tenga un punto. Si le das algo que no es texto, te avisa con un error.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto25.py
+
+## Punto26
+Este programa tiene una función para convertir una temperatura de Fahrenheit a Celsius. Esto demuestra cómo puedes usar una función para hacer una tarea específica y luego usar el resultado en tu programa principal.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto26.py
+
+## Punto27
+Este programa tiene una función que toma una lista de números y te devuelve una lista nueva solo con los números que son pares.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto27.py
+
+## Punto28
+Este programa tiene una función que revisa si una persona es mayor de edad. Solo le das la edad, y te dice si es 18 años o más. Esto es útil para programas que necesitan verificar la edad, como para dar acceso a contenido.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto28.py
+
+## Punto29
+Este programa tiene una función que hace una división de forma segura. Antes de dividir, revisa si el número de abajo es cero. Si es así, no hace la operación para evitar un error. Si no, hace la división y te da el resultado.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto29.py
+
+## Punto30
+Este programa tiene una función para crear contraseñas al azar. Puedes decirle qué tan larga la quieres, pero si no le dices nada, hace una de 8 caracteres. Esto es útil para crear contraseñas seguras de forma rápida.Cómo ejecutarloDesde la terminal, ve a la carpeta src/funciones y escribe:   python punto30.py
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto30.py
+
+## Punto31
+Este programa tiene una función para crear contraseñas al azar. Si no le dices qué tan larga la quieres, hace una de 8 caracteres. Esto es útil para crear contraseñas seguras de forma rápida.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto31.py
+
+## Punto32
+Este programa te muestra la mejor forma de documentar tus funciones. Es mejor ser directo y conciso para que cualquiera pueda entender rápidamente lo que hace el código.
+
+## Cómo ejecutarlo
+Abrir la terminal en la carpeta `src/funciones`.
+   python punto31.py
